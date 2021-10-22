@@ -16,7 +16,21 @@
     "start_url": "./index.html",
     "display": "standalone",
     "background-_olor": "fff",
-    "description": "Bijli Pay - electricity bill payment, track and reward"
+    "description": "Bijli Pay - electricity bill payment, track and reward",
+
+    "screenshots": [
+      {
+        "src": "./ss/ss1.png",
+        "type": "image/png",
+        "sizes": "540x720"
+      },
+      {
+        "src": "/ss/ss2.png",
+        "type": "image/jpg",
+        "sizes": "540x720"
+      }
+    ]
+
 
   }
   
