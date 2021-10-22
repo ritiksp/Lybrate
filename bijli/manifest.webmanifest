@@ -3,12 +3,12 @@
     "short_name": "Bijli",
     "icons": [
       {
-        "src": "/192X192.png",
+        "src": "./192X192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "512X512.png",
+        "src": "./512X512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
