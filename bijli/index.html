@@ -42,7 +42,7 @@
         window.addEventListener('beforeinstallprompt', event => {
       
           // Prevent Chrome 67 and earlier from automatically showing the prompt
-          event.preventDefault();
+        event.preventDefault();
       
           // Stash the event so it can be triggered later.
           deferredPrompt = event;
@@ -163,14 +163,14 @@
 		
 			<div class="login-form">
 			  <form action="">
-				<input type="text" placeholder="KNo" name="numberInput" id="kno">
+				<input type="text" placeholder="KNo" id="kno">
 				<input type="text" placeholder="Mobile" id="mobilenum" >
 				<button type="button" onclick="myFunction()">submit</button>
 				<!-- <button type="submit" id="lucky">I am feeling Bijli ⚡️</button> -->
-				<section style="display:none; text-align: center;" id="installBanner" class="banner">
-					<button style="font-size: 1.2em; color: #fff; height: 50px; width: 241px; border-radius: 10px; font-weight: normal; font-size: 16px; background-color: #0043FF; border: none;" id="installBtn">Install app ⚡️</button>
-			  </section>
 			  </form>
+			  <section style="display:none; text-align: center;" id="installBanner" class="banner">
+				<button style="font-size: 1.2em; color: #fff; height: 50px; width: 241px; border-radius: 10px; font-weight: normal; font-size: 16px; background-color: #0043FF; border: none;" id="installBtn">Install app ⚡️</button>
+		  	</section>
 			</div>
 		
 		  </div>
@@ -178,8 +178,8 @@
 	  </div>
 
 
-
-
+	  <!-- name="numberInput" -->
+	  
 	  <script src="assets/script.js"></script>
 
 	<div class="container" id="container">
