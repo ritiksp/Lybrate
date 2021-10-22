@@ -1,0 +1,22 @@
+{
+    "name": "Bijli Pay",
+    "short_name": "Bijli",
+    "icons": [
+      {
+        "src": "/192X192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "512X512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background-_olor": "fff",
+    "description": "Bijli Pay - electricity bill payment, track and reward"
+
+  }
+  
