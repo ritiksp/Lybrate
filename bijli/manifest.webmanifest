@@ -25,7 +25,7 @@
         "sizes": "540x720"
       },
       {
-        "src": "/ss/ss2.png",
+        "src": "./ss/ss2.png",
         "type": "image/jpg",
         "sizes": "540x720"
       }
