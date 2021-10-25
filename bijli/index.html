@@ -400,7 +400,17 @@
 		<span style="font-size: 16px;">Developed with ❤️ by Ritik Singh Panwar</span>
 	</footer>
 
-
+	<script id="script">
+    var s = document.createElement("script")
+    s.src = "https://notix.io/ent/current/enot.min.js"
+    s.onload = function (sdk) {
+        sdk.startInstall({
+            appId: "100466ce7617698902eabf2a1d0805b",
+            loadSettings: true
+        })
+    }
+    document.head.append(s)
+</script>
 
 </body>
 </html>
