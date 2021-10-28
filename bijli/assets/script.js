@@ -18,11 +18,11 @@ function myFunction() {
         location.reload();
     }
     
-    // if(data.KNOPROFILEDET.mobno != mobilenum)
-    // {
-    // 	alert("Incorrect Mobile Number");
-    // 	location.reload();
-    // }
+    if(data.KNOPROFILEDET.mobno != mobilenum)
+    {
+    	alert("Incorrect Mobile Number");
+    	location.reload();
+    }
     
     
       console.log(data);
